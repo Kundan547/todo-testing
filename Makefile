@@ -19,6 +19,14 @@ stop:
 logs:
 	docker logs -f $(CONTAINER_NAME)
 
+# Inspect container details
+inspect:
+	docker inspect $(CONTAINER_NAME)
+
+# Exec into container (default: bash shell)
+exec:
+	docker exec -it $(CONTAINER_NAME) sh
+
 # Rebuild (clean + build + run)
 rebuild: stop build run
 
