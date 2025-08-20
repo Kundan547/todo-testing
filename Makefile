@@ -33,3 +33,4 @@ rebuild: stop build run
 # Clean everything (container + image)
 clean: stop
 	docker rmi $(IMAGE_NAME) || true
+	
