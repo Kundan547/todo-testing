@@ -6,7 +6,7 @@ endif
 
 IMAGE_NAME = node-app
 CONTAINER_NAME = node-app-container
-PORT = 3000
+PORT = 3001
 
 # ------------------------
 # Build the Docker image
