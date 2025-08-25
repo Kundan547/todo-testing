@@ -9,6 +9,7 @@ On Linux, make sure you have the latest version of [Compose](https://docs.docker
 
 ## Clone the repository
 
+
 Open a terminal and clone this sample application.
 
 ```
